@@ -27,17 +27,17 @@ public class FormasGeometricas {
 	    System.out.println("Diga o valor de C: ");
 	    C = teclado.nextDouble();
 	    
-	    areaTriangulo = (A*C)/2;
-	    areaCirculo = pi * (C*C); //PI VEZES RAIO AO quadrado
-	    areaTrapezio = ((A+B)*C)/2;
-	    areaQuadrado =B*B;
-	    areaRetangulo = A*B;
+	    areaTriangulo = (A * C)/2;
+	    areaCirculo = pi * (C * C); //PI VEZES RAIO AO quadrado
+	    areaTrapezio = ((A + B) * C)/2;
+	    areaQuadrado = B * B;
+	    areaRetangulo = A * B;
 	    
-	    System.out.printf("Area do Triangulo retangulo =  %.3f\n",areaTriangulo);
-	    System.out.printf("Area do Circulo  = %.3f\n",areaCirculo);
-	    System.out.printf("Area do Trapezio =  %.3f\n", areaTrapezio);
-	    System.out.printf("Area do Quadrado =  %.3f\n", areaQuadrado);
-	    System.out.printf("Area do Retangulo =  %.3f\n", areaRetangulo);
+	    System.out.printf("TRIANGULO = %.3f\n",areaTriangulo);
+	    System.out.printf("CIRCULO = %.3f\n",areaCirculo);
+	    System.out.printf("TRAPEZIO = %.3f\n", areaTrapezio);
+	    System.out.printf("QUADRADO = %.3f\n", areaQuadrado);
+	    System.out.printf("RETANGULO = %.3f\n", areaRetangulo);
 	    
 	    teclado.close();
 	}
